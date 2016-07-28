@@ -89,7 +89,7 @@ ReactDOM.render(<App />, document.getElementById('app'))
   "description": "This is how to set a React JS enviroment",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --progress --colors --inline --hot"
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack-config.js --progress --colors --inline --hot"
   },
   "repository": {
     "type": "git",
