@@ -86,10 +86,31 @@ ReactDOM.render(<App />, document.getElementById('app'))
 {
   "name": "es6-react-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is how to set a React JS enviroment",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --progress --colors --inline --hot"
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack-config.js --progress --colors --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsancheza09/starting-reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsancheza09/starting-reactjs/issues"
+  },
+  "homepage": "https://github.com/rsancheza09/starting-reactjs#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
 ```
